@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{C4E1DF12-1D4D-4473-8763-C424146CD127}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{AD2258D7-4A3F-4817-B4F7-E49341BAEC84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{2B97BDD3-59C6-4355-B0BD-4777006C85F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5D53922D-8A69-4A66-B018-F4ACB011DD56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{3531CA22-D3B4-4A58-829B-3F185F39A878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Domain", "..\..\..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Domain\Clinica.Domain.csproj", "{6301600D-936F-4DAD-B0EE-C6D7D5093258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Infraestructure", "..\..\..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Infraestructure\Clinica.Infraestructure.csproj", "{D34DC865-5C64-4085-B9F2-99E35B3C81AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Utilities", "..\..\..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Utilities\Clinica.Utilities.csproj", "{7AF7BD8C-E280-4DD0-B1CE-8C9E54965C73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Api", "..\..\..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Api\Clinica.Api.csproj", "{E20CA357-72A1-448B-A687-851D1116BF4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Application.Dtos", "..\..\..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Application.Dtos\Clinica.Application.Dtos.csproj", "{6FE1531C-C434-47AB-BF97-D773D425E739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Application.Interface", "..\..\..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Application.Interface\Clinica.Application.Interface.csproj", "{E9DAD6D0-9974-434D-A9A1-6B5F501B848D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Application.UseCase", "..\..\..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Application.UseCase\Clinica.Application.UseCase.csproj", "{75039022-AB28-42E4-8476-B381873C5E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clinica.Persistence", "..\..\..\CursoAPI\Source\ClinicaDentalAPI\src\Clinica.Persistence\Clinica.Persistence.csproj", "{4994A9A9-6C1A-4A0E-B20A-B5EB94CF8656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6301600D-936F-4DAD-B0EE-C6D7D5093258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6301600D-936F-4DAD-B0EE-C6D7D5093258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6301600D-936F-4DAD-B0EE-C6D7D5093258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6301600D-936F-4DAD-B0EE-C6D7D5093258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34DC865-5C64-4085-B9F2-99E35B3C81AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34DC865-5C64-4085-B9F2-99E35B3C81AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34DC865-5C64-4085-B9F2-99E35B3C81AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34DC865-5C64-4085-B9F2-99E35B3C81AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF7BD8C-E280-4DD0-B1CE-8C9E54965C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF7BD8C-E280-4DD0-B1CE-8C9E54965C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF7BD8C-E280-4DD0-B1CE-8C9E54965C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF7BD8C-E280-4DD0-B1CE-8C9E54965C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20CA357-72A1-448B-A687-851D1116BF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20CA357-72A1-448B-A687-851D1116BF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20CA357-72A1-448B-A687-851D1116BF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20CA357-72A1-448B-A687-851D1116BF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE1531C-C434-47AB-BF97-D773D425E739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE1531C-C434-47AB-BF97-D773D425E739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE1531C-C434-47AB-BF97-D773D425E739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE1531C-C434-47AB-BF97-D773D425E739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9DAD6D0-9974-434D-A9A1-6B5F501B848D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9DAD6D0-9974-434D-A9A1-6B5F501B848D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9DAD6D0-9974-434D-A9A1-6B5F501B848D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9DAD6D0-9974-434D-A9A1-6B5F501B848D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75039022-AB28-42E4-8476-B381873C5E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75039022-AB28-42E4-8476-B381873C5E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75039022-AB28-42E4-8476-B381873C5E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75039022-AB28-42E4-8476-B381873C5E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4994A9A9-6C1A-4A0E-B20A-B5EB94CF8656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4994A9A9-6C1A-4A0E-B20A-B5EB94CF8656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4994A9A9-6C1A-4A0E-B20A-B5EB94CF8656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4994A9A9-6C1A-4A0E-B20A-B5EB94CF8656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6301600D-936F-4DAD-B0EE-C6D7D5093258} = {AD2258D7-4A3F-4817-B4F7-E49341BAEC84}
+		{D34DC865-5C64-4085-B9F2-99E35B3C81AE} = {2B97BDD3-59C6-4355-B0BD-4777006C85F0}
+		{7AF7BD8C-E280-4DD0-B1CE-8C9E54965C73} = {3531CA22-D3B4-4A58-829B-3F185F39A878}
+		{E20CA357-72A1-448B-A687-851D1116BF4A} = {5D53922D-8A69-4A66-B018-F4ACB011DD56}
+		{6FE1531C-C434-47AB-BF97-D773D425E739} = {C4E1DF12-1D4D-4473-8763-C424146CD127}
+		{E9DAD6D0-9974-434D-A9A1-6B5F501B848D} = {C4E1DF12-1D4D-4473-8763-C424146CD127}
+		{75039022-AB28-42E4-8476-B381873C5E81} = {C4E1DF12-1D4D-4473-8763-C424146CD127}
+		{4994A9A9-6C1A-4A0E-B20A-B5EB94CF8656} = {2B97BDD3-59C6-4355-B0BD-4777006C85F0}
+	EndGlobalSection
+EndGlobal
